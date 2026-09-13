@@ -75,6 +75,7 @@ export default function JoinForm() {
               id="name"
               name="name"
               type="text"
+              placeholder="NAMEEEE DOOOOOO"
               value={form.name}
               onChange={handleChange}
               required
@@ -87,6 +88,7 @@ export default function JoinForm() {
               id="email"
               name="email"
               type="email"
+              placeholder="MAIL TU DIA MAINA"
               value={form.email}
               onChange={handleChange}
               required
@@ -122,6 +124,7 @@ export default function JoinForm() {
               id="phone"
               name="phone"
               type="tel"
+              placeholder="HIHIHII"
               value={form.phone}
               onChange={handleChange}
             />
